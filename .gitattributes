@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+*.dart linguist-language=Dart
+lib/* linguist-language=Dart       # If your Dart code is in the 'lib' directory
+test/* linguist-language=Dart      # If you have Dart tests
+pubspec.yaml linguist-language=YAML # Explicitly set YAML for pubspec.yaml
