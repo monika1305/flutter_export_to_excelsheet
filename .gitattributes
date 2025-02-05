@@ -1,5 +1,8 @@
-# Auto detect text files and perform LF normalization
 *.dart linguist-language=Dart
-lib/* linguist-language=Dart       # If your Dart code is in the 'lib' directory
-test/* linguist-language=Dart      # If you have Dart tests
-pubspec.yaml linguist-language=YAML # Explicitly set YAML for pubspec.yaml
+lib/* linguist-language=Dart
+android/app/src/main/kotlin/* linguist-language=Kotlin  # Explicitly mark Kotlin
+ios/* linguist-language=Swift # Explicitly mark Swift
+*.yaml linguist-language=YAML # For pubspec.yaml
+CMakeLists.txt linguist-language=CMake
+.gitignore linguist-language=gitignore
+build/* linguist-language= # Exclude the build directory
