@@ -1,9 +1,18 @@
+.gradle
+.idea
+.dart_tool
+.packages
+build/      # Add this line to exclude the build directory
+android/app/build
+ios/Pods
+ios/.symlinks
+.DS_Store
+
 # Miscellaneous
 *.class
 *.log
 *.pyc
 *.swp
-.DS_Store
 .atom/
 .buildlog/
 .history
