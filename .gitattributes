@@ -1,3 +1,4 @@
+* linguist-language=Dart
 *.dart linguist-language=Dart
 lib/* linguist-language=Dart
 android/app/src/main/kotlin/* linguist-language=Kotlin  # Explicitly mark Kotlin
